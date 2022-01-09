@@ -1,5 +1,5 @@
 {% set name = "conda-souschef" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/conda-souschef-{{ version }}.tar.gz
-  sha256: 07b780f686c5947c5984c6bf00fff33e7757526f977619a2e967a75bac549bb7
+  sha256: 35abd4493b81c71499dea50a3478669e4809b58f7ca4ec7a37ad85d15d3bc353
 
 build:
   number: 0
